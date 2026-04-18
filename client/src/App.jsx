@@ -28,7 +28,7 @@ import {
   FileOutput
 } from 'lucide-react'
 
-const API_URL = 'http://localhost:8000'
+const API_URL = 'https://multi-agent-system-kdix.onrender.com'
 
 function App() {
   const [topic, setTopic] = useState('')
