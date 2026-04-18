@@ -1,0 +1,37 @@
+# Core LangChain ecosystem (LCEL + Agents + Tools)
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# Mistral AI integration
+langchain-mistralai>=0.1.0
+mistralai>=0.4.0
+
+# Tools
+tavily-python>=0.3.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# React Agent + parsing
+lxml>=5.0.0
+html5lib>=1.1
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Async + utilities
+aiohttp>=3.9.0
+tenacity>=8.2.0
+
+# Optional but recommended (for better parsing / debugging)
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# Logging / Dev
+rich>=13.0.0
+
+# (Optional) If you later add vector DB
+faiss-cpu>=1.7.4
+
+# (Optional) If you want HuggingFace fallback
+transformers>=4.40.0
