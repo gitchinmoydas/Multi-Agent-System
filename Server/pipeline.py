@@ -56,9 +56,9 @@ def research_pipeline(topic:str)->dict:
     print("Step 3 - Writer is drafting the report....")
     print("="*50)
 
-    critic_chain.invoke({
-        "report":state['report']
-    })
+    # critic_chain.invoke({
+    #     "report":state['report']
+    # })
 
     state["feedback"]=critic_chain.invoke({
         "report":state['report']
